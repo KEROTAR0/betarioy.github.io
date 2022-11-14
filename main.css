@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+}
+.main{
+    padding: 50px;
+    border: 5px solid black;
+    margin: 20px;
+}
+*{
+    color: rgb(87, 87, 87);
+}
+::selection {
+    background-color: blueviolet;
+    color: #fff;
+}
+.backgroundcolor{
+    width: 100%;
+    height: auto;
+    background-color: rgba(168, 168, 168, 0.5);    
+    background-size: 100%;
+}
+.head {
+    min-height: 42px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.webpage
+{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+.head-item{
+    list-style: none;
+    margin: auto 16px;
+    display: inline-flex;
+}
+.head-item:hover{
+    color: darkslateblue;
+}
+.info-w{
+    margin-top: 50px;
+    /* padding:  30px; */
+}
+/* 
+.bieu-do{
+    font-size: 20px;
+    padding: 30px 30px;
+    margin: 20px;
+    height: 300px;
+}
+.bieu-do-i{
+    min-height: 20px;
+    width: var(--percent);
+    color: rgb(125, 11, 255);
+    text-align: left;
+    background-image: linear-gradient(90deg, rgb(255, 158, 46), rgb(34, 255, 82));
+    animation: growth ease-in-out 5s;
+}
+.st{
+    min-height: 20px;
+    width: 100%;
+    background-color: #fff;
+}
+.str{
+    display: flex;
+} */
+.table-chart{
+    margin: 10px 30px;
+}
+.cell-num {
+    white-space: nowrap;
+    text-align: right;
+}
+.cell-barchart {
+    width: 80%;
+    min-width: 150px;
+}
+.barchart-color {
+    background-color: #00c2b8;
+}
+.barchart-bar {
+    height: .75rem;
+    border-radius: 4px;
+    border: 1px solid #737373;
+    border-color: rgba(0,0,0,.15);
+}
+/* @keyframes growth{
+    from{
+        opacity: 0;
+        width: 10%;
+    }
+    to{
+        opacity: 1;
+        width: var(--percent);
+    }
+} */
+.hop-hoc-van{
+    min-height: 300px;
+    margin-top: 20px;
+    
+}
+.hocvan{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    padding: 25px 0;
+}
+.hocvan1{
+    
+    padding: 0 40%;
+    background-color: rgba(255, 73, 73, 0.5);
+}
+.hop-kinh-nghiem{
+    min-height: 300px;
+    margin-top: 20px;
+    
+}
+.kinhnghiem{    
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    padding: 25px 0;
+}
+.kinhnghiem1{
+    padding: 0 40%;
+    background-color: rgba(255, 73, 73, 0.5);
+}
+.infoc{
+    margin: 10px 20px;
+}
